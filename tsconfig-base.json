@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {   
+        "module": "commonjs"
+        ,"target": "ES2017"
+        ,"alwaysStrict": true
+        ,"declaration": true
+        ,"listEmittedFiles": true
+        ,"removeComments": true
+        ,"outDir": "./dist"
+        ,"noStrictGenericChecks": true,
+        "baseUrl": ".",
+    }
+}

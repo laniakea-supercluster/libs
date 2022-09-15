@@ -1,0 +1,36 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "google"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint",
+        "unused-imports"
+    ],
+    "rules": {
+        "indent": "off",
+        "object-curly-spacing": "off",
+        "comma-dangle": "off",
+        "max-len": [
+            "error",
+            {
+                "code": 160
+            }
+        ],
+        "no-unused-vars": "off",
+        "unused-imports/no-unused-imports-ts": 2,
+        "unused-imports/no-unused-vars": 1
+    }
+}
